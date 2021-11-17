@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { UserCard } from "./components/UserCard";
 import axios from "axios";
-import { User } from "./api/user";
+import { User } from "./types/api/user";
 import { UserProfile } from "./types/userProfile";
 
 function App() {
